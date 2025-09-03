@@ -1,0 +1,61 @@
+/*
+	Fixa o rodapé
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.bg-primary {
+    background-color: #009688 !important;
+}
+
+.text-primary {
+    color: #009688 !important;
+}
+
+.btn-primary {
+    background-color: #009688 !important;
+    border-color: #009688 !important;
+}
+
+.btn-primary:hover {
+    background-color: #00796b !important;
+    border-color: #00796b !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-caption h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+}
+
+.card-panel {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item img {
+    max-height: 600px;
+    object-fit: cover;
+}
