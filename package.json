@@ -1,0 +1,24 @@
+{
+  "name": "guaratur-bootstrap",
+  "version": "1.0.0",
+  "description": "Projeto de exemplo que demonstra a criação de uma página de turismo responsiva utilizando **Bootstrap 5**.  \r O site apresenta uma página única (single page) com informações turísticas de Guarapuava-PR.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel0051/guaratur-bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/daniel0051/guaratur-bootstrap/issues"
+  },
+  "homepage": "https://github.com/daniel0051/guaratur-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}

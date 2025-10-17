@@ -59,3 +59,15 @@ main {
     max-height: 600px;
     object-fit: cover;
 }
+
+/*  Títulos responsivos */
+
+/* Título de blocos informativos */
+h4 {
+    font-size: clamp(1.3rem, 2vw, 2.6rem);
+}
+
+/* Título sobre imagem do card */
+.card .card-title {
+    font-size: clamp(1.1rem, 2.2vw, 2rem);
+}
