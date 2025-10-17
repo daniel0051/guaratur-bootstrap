@@ -12,25 +12,8 @@ main {
     flex: 1 0 auto;
 }
 
-.bg-primary {
-    background-color: #009688 !important;
-}
-
-.text-primary {
-    color: #009688 !important;
-}
-
-.btn-primary {
-    background-color: #009688 !important;
-    border-color: #009688 !important;
-}
-
-.btn-primary:hover {
-    background-color: #00796b !important;
-    border-color: #00796b !important;
-}
-
-.navbar-dark .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link,
+.btn {
     color: white !important;
 }
 
